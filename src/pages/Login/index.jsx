@@ -28,7 +28,6 @@ function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="w-full max-w-7xl bg-white rounded-lg shadow-lg flex overflow-hidden">
-        {/* Chap tomoni (logo va Welcome) */}
         <div className="w-1/2 bg-gray-900 text-white flex flex-col items-center justify-center p-10">
           <div className="text-blue-500 text-6xl mb-4">
           <PiShoppingCartDuotone />
@@ -38,7 +37,6 @@ function Login() {
           <h1 className="text-4xl font-bold">Shopping List</h1>
         </div>
 
-        {/* O'ng tomoni (form) */}
         <div className="w-1/2 p-10">
           <h2 className="text-3xl font-semibold text-center text-blue-600 mb-6">
             Sign In
