@@ -94,7 +94,7 @@ const Layout = () => {
           style={{ backgroundImage: `url('/your-image.jpg')` }}
         >
           {isModalOpen && 
-            <div className="absolute top-48 left-1/2 -translate-x-1/2 bg-white shadow-xl border border-blue-200 rounded-2xl w-80 z-50 p-6">
+            <div className="absolute top-48 right-230 bg-white shadow-xl border border-blue-200 rounded-2xl w-80 z-50 p-6">
               <h2 className="text-xl font-semibold mb-4 text-center text-blue-700">
                 Create Group
               </h2>
