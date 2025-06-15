@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Header from "../../components/header";
+import Header from "../../components/Header/index";
 import { Outlet, Link } from "react-router-dom";
 import { CgProfile } from "react-icons/cg";
 import { BiSolidMessageRounded } from "react-icons/bi";
