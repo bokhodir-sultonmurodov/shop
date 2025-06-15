@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { BASE_URL } from '../../../constants'
-import { FiTrash } from 'react-icons/fi' // 🗑 Trash icon
+import { FiTrash } from 'react-icons/fi' 
 
 const Group = () => {
   const [data, setData] = useState()
